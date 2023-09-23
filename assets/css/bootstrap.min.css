@@ -541,7 +541,6 @@ a > code {
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
-    transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
 .btn:focus, .btn:hover {
@@ -567,14 +566,14 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff
+    background-color: #9AD0EC;
+    border-color: #9AD0EC
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc
+    background-color: #9AD0EC;
+    border-color: #9AD0EC
 }
 
 .btn-primary.focus, .btn-primary:focus {
@@ -582,14 +581,14 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
-    background-color: #007bff;
-    border-color: #007bff
+    background-color: #E3BEC6;
+    border-color: #E3BEC6
 }
 
 .btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #0062cc;
-    border-color: #005cbf;
+    background-color: #E3BEC6;
+    border-color: #E3BEC6;
     box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5)
 }
 
